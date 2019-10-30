@@ -24,6 +24,18 @@ html, body {
   position: absolute;
   top: 60%; 
 }
+.btn-primary {
+  background-color: rgb(219, 219, 219);
+  border: 1px solid rgb(139, 139, 139);
+}
+.btn-primary:hover {
+  background-color: rgb(156, 156, 156);
+  border: 1px solid rgb(95, 95, 95);
+}
+.jumbotron {
+  padding: 1em;
+  border-radius: 0;
+}
 
 
 
