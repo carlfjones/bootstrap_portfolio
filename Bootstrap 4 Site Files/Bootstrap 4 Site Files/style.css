@@ -55,8 +55,11 @@ html, body {
   width: 20%;
   padding-bottom: 1rem;
 }
-.skills {
-
+.gif {
+  width: 70%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: cadetblue;
 }
 
 
