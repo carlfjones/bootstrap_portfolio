@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -33,11 +34,30 @@ html, body {
   border: 1px solid rgb(95, 95, 95);
 }
 .jumbotron {
-  padding: 1em;
+  padding: 1rem;
   border-radius: 0;
 }
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.logo {
+  width: 20%;
+  padding-bottom: 1rem;
+}
+.skills {
 
-
+}
 
 
 /*---Media Queries --*/
@@ -76,7 +96,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/backgroundimg.png');
   position: fixed;
   display: block;
   top: 0;
