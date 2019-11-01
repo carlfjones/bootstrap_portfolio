@@ -68,7 +68,13 @@ html, body {
 
   }
 @media (max-width: 768px) {
-  
+  .carousel-caption {
+    position: absolute;
+    top: 50%; 
+  }
+  .display-4 {
+    font-size: 200%;
+  }
 }
 @media (max-width: 576px) {
   
